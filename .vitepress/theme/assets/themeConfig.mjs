@@ -45,18 +45,18 @@ export const themeConfig = {
       ["link", { rel: "authorization_endpoint", href: "https://indieauth.com/auth" }],
       ["link", { rel: "token_endpoint", href: "https://tokens.indieauth.com/token" }],
       // WebMention
-      ["link", { rel: "webmention", href: "https://webmention.io/blog.storical.space/webmention" }],
-      ["link", { rel: "pingback", href: "https://webmention.io/blog.storical.space/xmlrpc" }],
+      ["link", { rel: "webmention", href: "https://webmention.io/050815.xyz/webmention" }],
+      ["link", { rel: "pingback", href: "https://webmention.io/050815.xyz/xmlrpc" }],
       ['script', { 
         type: 'application/ld+json',
         innerHTML: JSON.stringify({ 
           "@context": "https://schema.org", 
           "@type": "WebSite",
-          "url": "https://blog.storical.space",
+          "url": "https://050815.xyz",
           "potentialAction": {
             "@type": "InteractAction",
             "name": "发送WebMention",
-            "target": "https://webmention.io/blog.storical.space/webmention"
+            "target": "https://webmention.io/050815.xyz/webmention"
           }
         })
       }],
@@ -67,7 +67,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.storical.space/rss.xml",
+          href: "https://050815.xyz/rss.xml",
         },
       ],
       // 预载 CDN
@@ -243,19 +243,19 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:email@sinzmise.top",
+        link: "mailto:me@kemiaosw.top",
       },
       {
         icon: "github",
-        link: "https://github.com/SinzMise/",
+        link: "https://github.com/Kemeow815/",
       },
       {
         icon: "bilibili",
-        link: "https://space.bilibili.com/479627766",
+        link: "https://space.bilibili.com/3546643173477234",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=669506721",
+        link: "https://res.abeim.cn/api/qq/?qq=3149261770",
       },
     ],
     // sitemap
@@ -272,13 +272,13 @@ export const themeConfig = {
       {
         text: "虚拟备案",
         items: [
-          { text: "萌ICP备20231033号", link: "https://icp.gov.moe/?keyword=20231033", newTab: true },
-          { text: "团ICP备20250007号", link: "https://icp.星.fun/id.php?keyword=20250007", newTab: true },
-          { text: "MIIT备20240818号", link: "https://beian.miit.cn.com/gov/search.php?query=20240818", newTab: true },
-          { text: "官码2024000155号", link: "https://guan.ma/hao/2024000155/", newTab: true },
-          { text: "SICP备20243448号", link: "https://icp.sepocatch.xyz/search.php?keyword=blog.storical.space", newTab: true },
-          { text: "霞ICP备20251025号", link: "https://icp.20097747.xyz/id.php?keyword=20251025", newTab: true },
-          { text: "联bBb盟 icp备20256592", link: "https://icp.bbb-lsy07.my/query.php?keyword=20256592", newTab: true },
+          { text: "萌ICP备20250530号", link: "https://icp.gov.moe/?keyword=20250530", newTab: true },
+          // { text: "团ICP备20250007号", link: "https://icp.星.fun/id.php?keyword=20250007", newTab: true },
+          // { text: "MIIT备20240818号", link: "https://beian.miit.cn.com/gov/search.php?query=20240818", newTab: true },
+          // { text: "官码2024000155号", link: "https://guan.ma/hao/2024000155/", newTab: true },
+          // { text: "SICP备20243448号", link: "https://icp.sepocatch.xyz/search.php?keyword=050815.xyz", newTab: true },
+          // { text: "霞ICP备20251025号", link: "https://icp.20097747.xyz/id.php?keyword=20251025", newTab: true },
+          // { text: "联bBb盟 icp备20256592", link: "https://icp.bbb-lsy07.my/query.php?keyword=20256592", newTab: true },
         ],
       },
       {
@@ -333,8 +333,8 @@ export const themeConfig = {
     hello: {
       enable: true,
       text: `<span class="h-card">
-      <img class="u-photo" style='display:none' src="https://images1.blog.sinzmise.top/profile/avatar.webp"/>
-      昵称：<a class="p-name u-url" href="https://www.storical.space">克喵爱吃卤面</a><br>
+      <img class="u-photo" style='display:none' src="https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256"/>
+      昵称：<a class="p-name u-url" href="https://www.kemiao.online">克喵爱吃卤面</a><br>
       邮箱：<a class="u-email" href="mailto:me@kemiaosw.top">me@kemiaosw.top</a><br>
       <div class="p-note">愿你看清一切真相后，依旧热爱你的家人和朋友~</div>
       </span>`,
@@ -363,7 +363,7 @@ export const themeConfig = {
         { 
           title: "无聊湾 🥱 The Boring Bay",
           href: "https://boringbay.com",
-          image: "https://boringbay.com/api/badge/blog.storical.space"
+          image: "https://boringbay.com/api/badge/050815.xyz"
         },
         { 
           title: "Web Site Hit Counter",
@@ -372,8 +372,8 @@ export const themeConfig = {
         },
         { 
           title: "本站已经支持HTTP/3",
-          href: "https://http3.wcode.net/?q=blog.storical.space",
-          image: "https://http3.wcode.net/badges/http3.svg?host=blog.storical.space"
+          href: "https://http3.wcode.net/?q=050815.xyz",
+          image: "https://http3.wcode.net/badges/http3.svg?host=050815.xyz"
         },
       ]
     },
@@ -450,8 +450,8 @@ export const themeConfig = {
   },
   // WebMention
   webmention:{
-    enable: false,
-    url: 'blog.storical.space',
+    enable: true,
+    url: '050815.xyz',
     token: 'BUDcxWH7PTphGZE7n6NTpA',
   },
   // IndieWeb Webring
