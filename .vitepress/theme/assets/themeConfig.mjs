@@ -3,25 +3,25 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "汐塔魔法屋",
+    title: "喵落阁",
     // 站点副标题（RSS限定）
-    subtitle: "种下一颗有故事的种子，让它带着魔法和奇迹生根发芽",
+    subtitle: "克喵的博客",
     // 站点描述
-    description: "听，是潮汐的声音",
+    description: "或许，这对我们来说，只是一个选择。",
     // 站点logo
-    logo: "/images/icon.png",
+    logo: "https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256",
     // 站点地址
-    site: "https://blog.storical.space",
+    site: "https://www.050815.xyz",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "王九弦SZ·Ninty",
-      cover: "https://images1.blog.sinzmise.top/profile/avatar.webp",
-      email: "email@sinzmise.top",
-      link: "https://www.storical.space",
+      name: "克喵爱吃卤面",
+      cover: "https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256",
+      email: "me@kemiaosw.top",
+      link: "https://www.kemiao.online",
     },
-    copy: "SinZero Limited",
+    copy: "KeMiao Limited",
   },
   // 备案信息
   // icp: "萌ICP备114514号",
@@ -31,7 +31,7 @@ export const themeConfig = {
     text: '',
   },
   // 建站日期
-  since: "2020-07-28",
+  since: "2025-06-23",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -334,9 +334,9 @@ export const themeConfig = {
       enable: true,
       text: `<span class="h-card">
       <img class="u-photo" style='display:none' src="https://images1.blog.sinzmise.top/profile/avatar.webp"/>
-      昵称：<a class="p-name u-url" href="https://www.storical.space">王九弦SZ·Ninty</a><br>
-      邮箱：<a class="u-email" href="mailto:email@sinzmise.top">email@sinzmise.top</a><br>
-      <div class="p-note">听，是潮汐的声音在呼唤着我们</div>
+      昵称：<a class="p-name u-url" href="https://www.storical.space">克喵爱吃卤面</a><br>
+      邮箱：<a class="u-email" href="mailto:me@kemiaosw.top">me@kemiaosw.top</a><br>
+      <div class="p-note">愿你看清一切真相后，依旧热爱你的家人和朋友~</div>
       </span>`,
     },
     // 目录
@@ -349,11 +349,11 @@ export const themeConfig = {
     },
     // 倒计时
     countDown: {
-      enable: false,
+      enable: true,
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-01-29",
+        date: "2026-01-29",
       },
     },
     // 站点数据
