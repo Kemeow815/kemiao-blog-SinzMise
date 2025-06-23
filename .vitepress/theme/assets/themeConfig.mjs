@@ -11,7 +11,7 @@ export const themeConfig = {
     // 站点logo
     logo: "https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256",
     // 站点地址
-    site: "https://www.050815.xyz",
+    site: "https://050815.xyz",
     // 语言
     lang: "zh-CN",
     // 作者
@@ -205,7 +205,7 @@ export const themeConfig = {
   // 封面配置
   cover: {
     // 是否开启双栏布局
-    twoColumns: false,
+    twoColumns: true,
     // 是否开启封面显示
     showCover: {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
