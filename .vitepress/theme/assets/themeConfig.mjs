@@ -244,18 +244,22 @@ export const themeConfig = {
       {
         icon: "email",
         link: "mailto:me@kemiaosw.top",
+        rel: "me",
       },
       {
         icon: "github",
         link: "https://github.com/Kemeow815/",
+        rel: "me",
       },
       {
         icon: "bilibili",
         link: "https://space.bilibili.com/3546643173477234",
+        rel: "me",
       },
       {
         icon: "qq",
         link: "https://res.abeim.cn/api/qq/?qq=3149261770",
+        rel: "me",
       },
     ],
     // sitemap
