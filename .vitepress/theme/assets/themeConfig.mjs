@@ -389,9 +389,9 @@ export const themeConfig = {
   music: {
     enable: true,
     // url
-    url: "https://meting.api.sinzmise.top/api",
+    url: "https://meting.314926.xyz/api",
     // id
-    id: 8253386665,
+    id: 13681647281,
     // netease / tencent / kugou
     server: "netease",
     // playlist / album / song
@@ -407,11 +407,11 @@ export const themeConfig = {
   },
   // 打赏
   rewardData: {
-    enable: false,
+    enable: true,
     // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
+    wechat: "https://photo-kemiao.oss-cn-hangzhou.aliyuncs.com/img/wechat.webp-ys",
     // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
+    alipay: "https://photo-kemiao.oss-cn-hangzhou.aliyuncs.com/img/alipay.webp-ys",
   },
   // 图片灯箱
   fancybox: {
@@ -450,7 +450,7 @@ export const themeConfig = {
   },
   // WebMention
   webmention:{
-    enable: true,
+    enable: false,
     url: 'blog.storical.space',
     token: 'BUDcxWH7PTphGZE7n6NTpA',
   },
