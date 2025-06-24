@@ -136,7 +136,7 @@ export const themeConfig = {
       [
         "link",
         {
-          href: "https://72TOQYD33Q-dsn.algolia.net",
+          href: "https://K86Y0H4W95-dsn.algolia.net",
           rel: "preconnect",
           crossorigin: "",
         },
