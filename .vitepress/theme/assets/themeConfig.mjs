@@ -404,10 +404,10 @@ export const themeConfig = {
   // 搜索
   // https://www.algolia.com/
   search: {
-    enable: false,
-    appId: "72TOQYD33Q",
-    apiKey: "608d2f3acd06140a2473153f6cb61eda",
-    index: ""
+    enable: true,
+    appId: "K86Y0H4W95",
+    apiKey: "f8b8ed2d5934bd8cafa4b496ab91e05d",
+    index: "050815"
   },
   // 打赏
   rewardData: {
