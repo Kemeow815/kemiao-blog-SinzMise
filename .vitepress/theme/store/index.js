@@ -20,13 +20,13 @@ export const mainStore = defineStore("main", {
         direction: "down",
       },
       // 页脚可见性
-      footerIsShow: true,
+      footerIsShow: false,
       // 中控台显示
-      controlShow: true,
+      controlShow: false,
       // 搜索框显示
       searchShow: true,
       // 个性化配置显示
-      showSeetings: true,
+      showSeetings: false,
       // 播放器数据
       playState: false,
       playerShow: true,
